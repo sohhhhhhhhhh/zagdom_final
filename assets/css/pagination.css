@@ -1,0 +1,67 @@
+.button__item{
+  border: 1px solid #666666;
+  border-radius: 10px;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #254741;
+  font-family: var(--font);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  cursor: pointer;
+}
+
+.button__next, .button__prev{
+  border-radius: 10px;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background-color: #029F59;
+  cursor: pointer;
+}
+
+.button__next{
+  margin-left: 16px;
+}
+
+.button__next{
+  margin-right: 16px;
+}
+
+.button__item[data-selected] {
+  background-color: #254741;
+  color: #ffffff;
+  
+}
+
+.button__prev:disabled,
+.button__next:disabled {
+  border: 1px solid #D7D7D7;
+  cursor: not-allowed;
+  color: #D7D7D7;
+  background-color: #ffffff;
+}
+
+.PaginationEllipsis {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border: 1px solid #666666;
+  border-radius: 10px;
+}
+
+.PaginationList{
+  display: flex;
+  list-style: none;
+  gap: 8px;
+  align-items: center;
+}
+

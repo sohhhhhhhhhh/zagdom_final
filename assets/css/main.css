@@ -1,0 +1,41 @@
+:root {
+      --main-font: 'Open Sans', sans-serif;
+      --font: 'Montserrat', sans-serif;
+}
+
+html, body {
+      width: 100%;
+      min-height: 100vh;
+}
+
+.main{
+      flex: 1 1 auto;
+}
+
+.main__container{
+      display: flex;
+      flex-direction: column;
+}
+
+._container {
+      width: 100%;
+      max-width: 1440px;
+      margin: 0 auto;
+      padding: 0 clamp(15px, 4.5vw, 88px);
+      box-sizing: border-box;
+    }
+
+a{
+      all: unset;
+}
+
+.wrapper{
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+}
+
+
+
+
+

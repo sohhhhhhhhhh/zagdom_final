@@ -1,0 +1,18 @@
+
+@mixin ui-flex-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin ui-heading {
+  font-family: var(--my-font-title);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+@mixin ui-body-text {
+  font-family: var(--my-font-text);
+  font-size: 1rem;
+  font-weight: 400;
+}
