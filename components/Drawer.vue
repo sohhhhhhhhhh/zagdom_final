@@ -59,7 +59,7 @@
         if (newVal) {
             document.body.style.overflow = 'hidden';
         } else {
-            document.body.style.overflow = '';
+            document.body.style.overflow = 'auto';
         }
     });
 </script>
